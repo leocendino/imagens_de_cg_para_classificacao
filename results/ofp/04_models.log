@@ -1,0 +1,6 @@
+14:49:38 [RAM 669 MB, pico 669 MB] === nova execução ===
+14:49:52 [RAM 1047 MB, pico 1172 MB]     época 1: perda 2.108 · F1 macro val 0.071
+14:49:52 [RAM 1046 MB, pico 1172 MB]   1 épocas, melhor F1 macro na validação interna 0.071
+14:54:50 [RAM 669 MB, pico 669 MB] === nova execução ===
+14:55:01 [RAM 1045 MB, pico 1195 MB]     época 1: perda 2.108 · F1 macro val 0.071
+14:55:01 [RAM 1045 MB, pico 1195 MB]   1 épocas, melhor F1 macro na validação interna 0.071
