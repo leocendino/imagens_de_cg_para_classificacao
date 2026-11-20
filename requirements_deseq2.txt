@@ -1,0 +1,11 @@
+# Ambiente conda: cg-deseq2 (Python 3.11), só para o R24c (expressão diferencial com o DESeq2; usuário, 2026-11-19)
+#   conda create -n cg-deseq2 python=3.11
+#   conda activate cg-deseq2 && pip install -r requirements_deseq2.txt
+#   python -m ipykernel install --user --name cg-deseq2 --display-name "Python (cg-deseq2)"
+# Separado do cg-multiomica porque o pydeseq2 0.5.4 exige pandas < 3 (instala o 2.3.3; o cg-multiomica usa o 3.0.6).
+# Notebook: notebooks/04_models_RNA_deseq2.ipynb
+pydeseq2==0.5.4
+pyarrow==25.0.1
+ipykernel==7.4.0
+# instalados como dependências (2026-11-19): pandas 2.3.3, numpy 2.4.6, scipy 1.17.1, scikit-learn 1.9.1, anndata 0.12.19,
+# formulaic 1.2.2, matplotlib 3.11.2
